@@ -1,0 +1,194 @@
+body {
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+h2, h3 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+form {
+    max-width: 400px;
+    margin: 30px auto;
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+form input[type="text"],
+form select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    background-color: #27ae60;
+    color: white;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+}
+
+form input[type="submit"]:hover {
+    background-color: #219150;
+}
+
+#timer {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #ecf0f1;
+    border-radius: 10px;
+    width: fit-content;
+}
+
+a {
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #e74c3c;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    text-align: center;
+    font-weight: bold;
+}
+
+a:hover {
+    background-color: #c0392b;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 40px auto;
+    width: 80%;
+}
+
+.receipt-box {
+    background-color: #ffffff;
+    padding: 30px;
+    margin: 40px auto;
+    max-width: 500px;
+    border-radius: 12px;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.receipt-box p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+.receipt-box .total {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #2d3436;
+    margin-top: 15px;
+}
+
+.receipt-container {
+    max-width: 500px;
+    margin: 60px auto;
+    background: #ffffff;
+    padding: 30px 25px;
+    border-radius: 12px;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.receipt-details p {
+    font-size: 1.1em;
+    margin: 10px 0;
+}
+
+.receipt-details .total {
+    font-size: 1.4em;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #2d3436;
+}
+
+.receipt-button {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px 20px;
+    background-color: #27ae60;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.receipt-button:hover {
+    background-color: #219150;
+}
+
+p[style*="color:red"] {
+    text-align: center;
+    font-weight: bold;
+    color: red !important;
+}
+
+p[style*="color:green"] {
+    text-align: center;
+    font-weight: bold;
+    color: green !important;
+}
+
+.end-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e74c3c;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.end-button:hover {
+    background-color: #c0392b;
+}
+
+@media (max-width: 500px) {
+    form, .receipt-box {
+        width: 90%;
+        padding: 20px;
+    }
+
+    h2, h3 {
+        font-size: 1.3em;
+    }
+}
+
+.session-started-box {
+    background-color: #ffffff;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.session-started-box p {
+    font-size: 1.1em;
+    margin: 15px 0;
+}
+
