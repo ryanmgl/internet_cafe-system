@@ -6,7 +6,6 @@ Working links hosted by alwaysdata:
 Admin: https://butchug.alwaysdata.net
 User:  https://butchug.alwaysdata.net/user.php
 
-
 -Navigate to admin page and enter username: admin1 and password: admin1234 to proceed.
 
 -You can track user sessions in the dashboard and register users.
